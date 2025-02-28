@@ -1,0 +1,40 @@
+@import 'react-quill-new/dist/quill.snow.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 50% 98%;
+  --foreground: 220 20% 20%;
+  --card: 220 40% 96%;
+  --card-foreground: 220 20% 20%;
+  --primary: 180 50% 50%; /* Un poco más saturado */
+  --primary-foreground: 180 10% 20%;
+  --border: 220 30% 80%; /* Borde más visible */
+  --input: 220 30% 85%;
+}
+
+.dark {
+  --background: 220 20% 10%;
+  --foreground: 220 20% 90%;
+  --card: 220 20% 15%;
+  --card-foreground: 220 20% 90%;
+  --primary: 180 50% 40%; /* Más oscuro en modo oscuro */
+  --primary-foreground: 180 10% 90%;
+  --border: 220 30% 30%;
+  --input: 220 30% 25%;
+}
+
+body {
+  @apply bg-background text-foreground;
+}
+
+/* Mejoras adicionales para Quill */
+.ql-container {
+  @apply border-none;
+}
+
+.ql-toolbar {
+  @apply bg-muted/30 border-b border-border;
+}
