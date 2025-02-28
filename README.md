@@ -50,24 +50,22 @@ npm run dev
 ```
 5.Open http://localhost:3000 in your browser
 
-### 📦 Project Structure
-notesphere/
-│
-├── components/
-│   ├── AuthForm.tsx
-│   ├── NoteForm.tsx
-│   ├── NoteList.tsx
-│   └── ...
-│
-├── types/
-│   └── index.ts
-│
-├── app/
-│   ├── page.tsx
-│   └── layout.tsx
-│
-└── styles/
-    └── globals.css
+# 🔧 Technical Deep Dive
+### Key Technical Implementations
+Local storage for note persistence
+Modular component architecture
+Strict TypeScript typing
+Performance-optimized rendering
+Custom UI components
+### State Management
+Utilizing React Hooks (useState, useEffect)
+Efficient state updates
+Minimal re-renders
+### 🎨 Design Philosophy
+Modern, clean interface
+Intuitive user experience
+Customizable theme
+Accessibility-first approach
 
 
 ## 🎥 Demo
